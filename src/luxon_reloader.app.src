@@ -1,0 +1,18 @@
+{application, luxon_reloader,
+    [{description, "Erlang Reloader Application"},
+        {vsn, "1.0.0"},
+        {registered, []},
+        {applications, [
+            kernel,
+            stdlib
+        ]},
+        {env, [
+            {interval, 5000} % five seconds
+        ]},
+        {mod, {luxon_reloader_app, []}},
+        {modules, []},
+
+        {contributors, []},
+        {licenses, []},
+        {links, []}
+    ]}.
